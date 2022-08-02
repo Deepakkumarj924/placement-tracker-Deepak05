@@ -1,0 +1,37 @@
+.contact{
+    background-color: #1450a7;
+}
+.bgc{
+    background-color: #0a63c4;
+}
+.contact-info{
+    color: white;
+}
+.addrs-info{
+    color: white;
+}
+.form-btn{
+    background-color: #f77a10;
+    color: white;
+    border: none;
+    font-size: large;
+    border-radius: 2px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    
+}
+.form-btn:hover{
+    background-color: #c66109;
+}
+.md-form{
+    margin-top: 25px;
+}
+.addrs-info ul{
+    list-style-type: none;
+}
+.icony{
+    position: absolute;
+    transform: translateX(-130%);
+
+}

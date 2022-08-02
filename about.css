@@ -1,0 +1,15 @@
+
+  .container{
+    display: flex;
+  }
+  @media screen and (max-width: 768px) {
+    
+    .container{
+        display: block;
+
+    }
+
+}
+.back{
+  background-color: #000f20;
+}

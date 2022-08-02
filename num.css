@@ -1,0 +1,41 @@
+.section-work-data {
+   /* background: linear-gradient( to right,#1450a7 0%,#0a63c4 100%); */
+    text-align: center;
+    transition: all 0.7s linear;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+.counter-numbers{
+    font-size: 5rem;
+}
+.section-work-data h4{
+ color: rgb(113, 82, 42);
+ font-size: 1rem
+}
+.counter-numbers{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #db6221;
+}
+.container{
+  
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:768px) {
+    .container{
+       display: block;
+    }
+    .counter-numbers{
+        font-size: 4rem;
+    }
+    .counter-numbers{
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+    .section-work-data h4{
+        color:#a45d06;
+        font-size: 0.9rem;
+       }
+}
